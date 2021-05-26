@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>03_02 Exercise - End</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+	<form action="" id="questions" method="post" name="questions">
+		<h1>Appointment Request</h1>
+
+		<div>
+			<label for="name">Name</label>
+			<input id="name" name="name" type="text" required>
+		</div>
+
+		<div>
+			<label for="email">Email Address</label>
+			<input id="email" name="email" type="email">
+		</div>
+
+		<div>
+			<label for="tel">Phone</label>
+			<input id="phone" name="phone" type="tel">
+		</div>
+
+		<fieldset>
+			<legend>Address</legend>
+
+			<div>
+				<label for="street">Number and Street</label>
+				<input id="street" name="street" type="text">
+			</div>
+
+			<div>
+				<label for="city">City</label>
+				<input id="city" name="city" type="text">
+			</div>
+
+
+			<div>
+				<label for="state">State</label> 
+				<select id="state" name="state">
+					<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+					<option value="Andhra Pradesh">Andhra Pradesh</option>
+					<option value="Assam">Assam</option>
+					<option value="Bihar">Bihar</option>
+					<option value="Chandigarh">Chandigarh</option>
+					<option value="Chhattisgarh">Chhattisgarh</option>
+					<option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+					<option value="Daman and Diu">Daman and Diu</option>
+					<option value="Delhi">Delhi</option>
+					<option value="Goa">Goa</option>
+					<option value="Gujarat">Gujarat</option>
+					<option value="Haryana">Haryana</option>
+					<option value="Himachal Pradesh">Himachal Pradesh</option>
+					<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+					<option value="Jharkhand">Jharkhand</option>
+					<option value="Karnataka">Karnataka</option>
+					<option value="Kerala">Kerala</option>
+					<option value="Lakshadweep">Lakshadweep</option>
+					<option value="Madhya Pradesh">Madhya Pradesh</option>
+					<option value="Maharashtra">Maharashtra</option>
+					<option value="Manipur">Manipur</option>
+					<option value="Meghalaya">Meghalaya</option>
+					<option value="Mizoram">Mizoram</option>
+					<option value="Nagaland">Nagaland</option>
+					<option value="Orissa">Orissa</option>
+					<option value="Pondicherry">Pondicherry</option>
+					<option value="Punjab">Punjab</option>
+					<option value="Rajasthan">Rajasthan</option>
+					<option value="Sikkim">Sikkim</option>
+					<option value="Tamil Nadu">Tamil Nadu</option>
+					<option value="Tripura">Tripura</option>
+					<option value="Uttaranchal">Uttaranchal</option>
+					<option value="Uttar Pradesh">Uttar Pradesh</option>
+					<option value="West Bengal">West Bengal</option>
+				</select>
+			</div>
+
+			<div>
+				<label for="zip">Zip</label>
+				<input id="zip" pattern="[0-9]{5}" type="text">
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<legend>Preferred Time(s)</legend> 
+
+			<input id="morning" name="favcolor" type="checkbox" value="morning"> 
+			<label for="morning">morning</label> 
+
+			<input id="afternoon" name="favcolor" type="checkbox" value="afternoon"> 
+			<label for="afternoon">afternoon</label> 
+
+			<input id="evening" name="favcolor" type="checkbox" value="evening"> 
+			<label for="evening">evening</label>
+
+		</fieldset>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
